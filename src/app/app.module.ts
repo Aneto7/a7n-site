@@ -15,12 +15,14 @@ import { FooterComponent } from './shared/footer/footer.component';
 
 import { HomeModule } from './home/home.module';
 import { LoginComponent } from './login/login.component';
+import { CursosconsultoriasComponent } from './cursosconsultorias/cursosconsultorias.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SignupComponent,
     LandingComponent,
+    CursosconsultoriasComponent,
     ProfileComponent,
     NavbarComponent,
     FooterComponent,
